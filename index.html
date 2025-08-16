@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Akash Kumar — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Floating gradient blobs -->
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+
+  <!-- NAVBAR -->
+  <header class="topbar">
+    <div class="brand">Akash <span>Kumar</span></div>
+
+    <nav class="nav" id="navMenu" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-left reveal">
+        <div class="badge">MERN & .NET Developer</div>
+        <h1 class="name">Akash Kumar</h1>
+        <p class="typer">
+          <span id="typingText"></span>
+          <span class="caret">|</span>
+        </p>
+        <p class="tagline">
+          I build <strong>fast</strong>, <strong>secure</strong> and <strong>beautiful</strong> web apps with a modern stack and clean code.
+        </p>
+
+        <div class="hero-ctas">
+          <a class="btn" href="Akash_Resume.pdf" download>📄 Download CV</a>
+          <a class="btn ghost" href="#projects">🚀 See Projects</a>
+          <a class="btn outline" href="#contact">✉️ Contact</a>
+        </div>
+
+        <div class="socials small">
+          <a href="https://github.com/AKASH20sw053" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/akash-kumar-526968213" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:akashsuther2025@gmail.com">Email</a>
+          <a href="tel:03332608709">Call</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><span class="num" data-target="25">0</span><span class="label">Projects</span></div>
+          <div class="stat"><span class="num" data-target="10">0</span><span class="label">Certs</span></div>
+          <div class="stat"><span class="num" data-target="4">0</span><span class="label">Years</span></div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="photo-ring">
+          <div class="ring glow"></div>
+          <img id="profileImg" src="InShot_20241030_140345172.jpg.jpg" alt="Akash Kumar portrait" />
+        </div>
+        <div class="floating-cards">
+          <div class="card">MERN</div>
+          <div class="card">.NET</div>
+          <div class="card">React</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="panel about reveal">
+      <h2>About Me</h2>
+      <p>
+        I’m Akash, a full-stack engineer focused on performance, security and delightful UX.
+        I love turning ideas into production-ready apps using React, Node, MongoDB and .NET.
+      </p>
+      <ul class="meta">
+        <li><strong>Degree:</strong> BS Software Engineering — Mehran University (2025)</li>
+        <li><strong>Availability:</strong> Immediate</li>
+        <li><strong>Location:</strong> Pakistan</li>
+      </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="panel skills reveal">
+      <h2>Skills</h2>
+      <div class="skill-tags">
+        <span>React</span><span>Next.js</span><span>Node.js</span><span>Express</span>
+        <span>MongoDB</span><span>.NET</span><span>C#</span><span>TypeScript</span>
+        <span>REST</span><span>JWT/Auth</span><span>Tailwind</span><span>Vite</span>
+      </div>
+
+      <div class="skill-grid">
+        <div class="skill">
+          <div class="skill-head"><span>React</span><span>90%</span></div>
+          <div class="bar"><div class="fill" data-fill="90"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-head"><span>Node.js</span><span>85%</span></div>
+          <div class="bar"><div class="fill" data-fill="85"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-head"><span>MongoDB</span><span>80%</span></div>
+          <div class="bar"><div class="fill" data-fill="80"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-head"><span>.NET / C#</span><span>78%</span></div>
+          <div class="bar"><div class="fill" data-fill="78"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-head"><span>HTML / CSS</span><span>95%</span></div>
+          <div class="bar"><div class="fill" data-fill="95"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-head"><span>JavaScript</span><span>92%</span></div>
+          <div class="bar"><div class="fill" data-fill="92"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="panel projects reveal">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card tilt">
+          <div class="shine"></div>
+          <div class="proj-thumb">CV</div>
+          <h3>CV Maker Website</h3>
+          <p>Create and download professional CVs with templates.</p>
+          <a class="proj-links" href="https://github.com/AKASH20sw053" target="_blank" rel="noreferrer">View on GitHub</a>
+        </article>
+
+        <article class="project-card tilt">
+          <div class="shine"></div>
+          <div class="proj-thumb">UI</div>
+          <h3>Frontend Academy</h3>
+          <p>Interactive frontend learning platform and exercises.</p>
+          <a class="proj-links" href="https://github.com/AKASH20sw053" target="_blank" rel="noreferrer">View on GitHub</a>
+        </article>
+
+        <article class="project-card tilt">
+          <div class="shine"></div>
+          <div class="proj-thumb">Sec</div>
+          <h3>CyberGuard Pro</h3>
+          <p>Tool to detect vulnerabilities in websites — security-first design.</p>
+          <a class="proj-links" href="https://github.com/AKASH20sw053" target="_blank" rel="noreferrer">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="panel certifications reveal">
+      <h2>Certifications</h2>
+      <p class="sub">Preview or download my certifications.</p>
+      <div class="cert-grid">
+        <article class="cert-card">
+          <div class="badge top">Verified</div>
+          <h3>Full Stack Development</h3>
+          <p>High Tech Software House</p>
+          <div class="card-buttons">
+            <a href="cert1.pdf" target="_blank" class="btn outline">👀 Preview</a>
+            <button class="btn cert-download" data-file="cert1.pdf">📥 Download</button>
+          </div>
+        </article>
+        <article class="cert-card">
+          <div class="badge top">Verified</div>
+          <h3>JavaScript Mastery</h3>
+          <p>Octanet Service</p>
+          <div class="card-buttons">
+            <a href="cert2.pdf" target="_blank" class="btn outline">👀 Preview</a>
+            <button class="btn cert-download" data-file="cert2.pdf">📥 Download</button>
+          </div>
+        </article>
+        <article class="cert-card">
+          <div class="badge top">Verified</div>
+          <h3>React & Node.js</h3>
+          <p>Szabist Zabtech</p>
+          <div class="card-buttons">
+            <a href="cert3.pdf" target="_blank" class="btn outline">👀 Preview</a>
+            <button class="btn cert-download" data-file="cert3.pdf">📥 Download</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="panel contact reveal">
+      <h2>Contact Me</h2>
+      <p>Send a message — I usually reply quickly.</p>
+      <form id="contactForm" class="contact-form">
+        <div class="row"><input type="text" id="name" placeholder="Your name" required /></div>
+        <div class="row"><input type="email" id="email" placeholder="Your email" required /></div>
+        <div class="row"><textarea id="message" rows="6" placeholder="Message" required></textarea></div>
+        <div class="row"><button class="btn" type="submit">Send Message</button></div>
+      </form>
+
+      <div class="socials">
+        <a href="https://github.com/AKASH20sw053" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/akash-kumar-526968213" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:akashsuther2025@gmail.com">Email</a>
+        <a href="tel:03332608709">0333-2608709</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Akash Kumar — MERN & .NET Developer</p>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
